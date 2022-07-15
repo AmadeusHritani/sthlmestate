@@ -1,0 +1,45 @@
+{
+    "menu": {
+        "top": {
+            "clipped": true,
+            "drawer": false,
+            "fixed": true,
+            "miniVariant": true,
+            "right": true,
+            "rightDrawer": false,
+            "title": "Sthlm Estate",
+            "items": [
+                {
+                    "id": 1,
+                    "slug": "/",
+                    "title": "Dashboard",
+                    "icon": "mdi-apps"
+                },
+                {
+                    "id": 2,
+                    "slug": "/simple-website",
+                    "title": "Simple Website",
+                    "icon": "mdi-sitemap-outline"
+                },
+                {
+                    "id": 3,
+                    "slug": "/advanced-cms",
+                    "title": "Advanced CMS",
+                    "icon": "mdi-wan"
+                },
+                {
+                    "id": 3,
+                    "slug": "/simple-store",
+                    "title": "Simple Store",
+                    "icon": "mdi-cart"
+                },
+                {
+                    "id": 3,
+                    "slug": "/advanced-atore",
+                    "title": "Advanced Store",
+                    "icon": "mdi-store-cog"
+                }
+            ]
+        }
+    }
+}
