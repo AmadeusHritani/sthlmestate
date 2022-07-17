@@ -26,7 +26,7 @@ export default {
             id: 2,
             slug: '/fastigheter',
             label: 'Till Salu',
-            title: 'Alla Egenskaper',
+            title: 'Alla Fastigheter',
             short_desc: 'Utforska fastigheter till salu',
             icon: 'mdi-home-group'
           },
@@ -34,17 +34,17 @@ export default {
             id: 3,
             slug: '/om-oss',
             label: 'Om Oss',
-            title: 'About Sthlm Estate',
-            short_desc: 'Information about Sthlm Estate',
+            title: 'Om Sthlm Estate',
+            short_desc: 'Information Om Sthlm Estate',
             icon: 'mdi-information-variant'
           },
           {
             id: 4,
             slug: '/kontakt',
-            label: 'Kontakt',
-            title: 'Kontakt',
+            label: 'Kontakt Oss',
+            title: 'Kontakt Sthlm Estate',
             short_desc: 'Explore properties for rent',
-            icon: 'mdi-send-circle-outline'
+            icon: 'mdi-send-outline'
           }
         ]
       },
