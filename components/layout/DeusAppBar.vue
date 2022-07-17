@@ -86,35 +86,35 @@ export default {
 
 <style lang="scss">
 .v-btn.menu-link {
+  background: none !important;
+  background-color: transparent !important;
+  border-radius: 0;
+  .v-ripple__container {
+    display: none;
+  }
+  &:before {
+    width: 0;
+    opacity: 1;
     background: none !important;
     background-color: transparent !important;
     border-radius: 0;
-    .v-ripple__container {
-      display: none;
-    }
-    &:before {
-      width: 0;
-      opacity: 1;
-      background: none !important;
-      background-color: transparent !important;
-      border-radius: 0;
-      margin: 0 auto;
-      top: 0;
-      bottom: 0;
-      color: inherit;
-      transition: width .2s ease;
-      transition-delay: .2s;
-      // animation: line .5s linear forwards;
-    }
-    &:hover {
-      transition: width 5s ease;
-    }
-    &:hover::before {
-      border-bottom: 1px solid var(--v-primary-base);
-      width: calc(100% - 32px);
-      opacity: 1;
-    }
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    color: inherit;
+    transition: width .2s ease;
+    transition-delay: .2s;
+    // animation: line .5s linear forwards;
   }
+  &:hover {
+    transition: width 5s ease;
+  }
+  &:hover::before {
+    border-bottom: 1px solid var(--v-primary-base);
+    width: calc(100% - 32px);
+    opacity: 1;
+  }
+}
 
 .theme--light.menu-link.v-btn--active:hover::before,
 .theme--light.menu-link.v-btn--active::before {
