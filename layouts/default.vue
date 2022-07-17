@@ -43,7 +43,7 @@
       paddless
     >
       <v-container class="text-center">
-        <span>SimHop AB &copy; {{ new Date().getFullYear() }}</span>
+        <span>Sthlm Estate &copy; {{ new Date().getFullYear() }}</span>
       </v-container>
     </v-footer>
   </v-app>
