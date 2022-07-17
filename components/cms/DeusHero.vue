@@ -392,13 +392,13 @@ export default {
         styles += `background-image: url(${bg});`
       }
       if (this.background.bgcolor) {
-        styles += `background-color: ${this.background.bgcolor}`
+        styles += `background-color: ${this.background.bgcolor};`
       }
       if (this.background.position) {
-        styles += `background-position: ${this.background.position}`
+        styles += `background-position: ${this.background.position};`
       }
       if (this.background.size) {
-        styles += `background-size: ${this.background.size}`
+        styles += `background-size: ${this.background.size};`
       }
       if (this.background.mono) {
         styles += 'filter: grayscale();'
